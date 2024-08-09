@@ -1,0 +1,54 @@
+{
+    "kamran": {
+        "username": "kamran",
+        "pin": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",
+        "balance": 0,
+        "transactions": [
+            {
+                "type": "transfer",
+                "amount": 300.0,
+                "from": "saad",
+                "date": "2024-08-04 23:08:28.314970"
+            },
+            {
+                "type": "transfer",
+                "amount": 600.0,
+                "from": "saad",
+                "date": "2024-08-04 23:22:40.900287"
+            },
+            {
+                "type": "deposit",
+                "amount": 2000.56,
+                "date": "2024-08-04 23:45:11.255090"
+            },
+            {
+                "type": "transfer",
+                "amount": 999.56,
+                "from": "saad",
+                "date": "2024-08-04 23:47:03.025279"
+            }
+        ],
+        "is_frozen": false,
+        "transaction_limit": 1000
+    },
+    "saad": {
+        "username": "saad",
+        "pin": "f6e0a1e2ac41945a9aa7ff8a8aaa0cebc12a3bcc981a929ad5cf810a090e11ae",
+        "balance": 0,
+        "transactions": [
+            {
+                "type": "deposit",
+                "amount": 2000.56,
+                "date": "2024-08-04 23:46:30.022820"
+            },
+            {
+                "type": "transfer",
+                "amount": 999.56,
+                "to": "kamran",
+                "date": "2024-08-04 23:47:03.025279"
+            }
+        ],
+        "is_frozen": false,
+        "transaction_limit": 1000
+    }
+}
